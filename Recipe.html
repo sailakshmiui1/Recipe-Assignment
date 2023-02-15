@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe-with-HTML</title>
+    <style>
+        ul {
+  list-style: disc;
+}
+.item {
+  float: left;
+  margin: 0 11px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Magii-Recipe</h1>
+        <h2>About</h2>
+        <p>The recipe should have a primary heading of "Magii Recipe", and it should be divided into two sections, the
+            ingredients and the instructions, with the headings "Ingredients" and "Instructions", respectively.</p>
+        <section>
+            <h1>Ingredients:</h1>
+            <h3>The ingredients are an unordered list with the following contents:</h3>
+            <ul>
+                <li class="item">Magii</li>
+                <li class="item">Sauce</li>
+                <li class="item">Salt</li>
+                <li class="item">Water</li>
+            </ul>
+
+        </section>
+        <br>
+        <section>
+            <h1>Instructions:</h1>
+            <h3>The instructions are an ordered list with the following contents:</h3>
+            <ol>
+                <li>Bring water to a boil.</li>
+                <li>Add magii to boiling water.</li>
+                <ol type="i">
+                    <li>Add salt to taste.</li>
+                    <li> Cook for 2 minutes, stirring occasionally.</li>
+                </ol>
+                <li>Add sauce to a pan</li>
+                <li>Mix cooked magii with sauce.</li>
+                <li>Enjoy!</li>
+            </ol>
+        </section>
+        <div>
+            <h5>Note that "Add salt to taste." and "Cook for 2 minutes, stirring occasionally." are in a sub-ordered
+                list under the
+                second instruction.</h5>
+        </div>
+    </div>
+</body>
+
+</html>
